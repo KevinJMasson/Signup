@@ -1,6 +1,6 @@
 <h1>Sample Sign-Up Page</h1>
 This is a sample sign up page following the design of The Odin Project's sign up  form project.
-Instructions and design have be viewed <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form">here</a>
+Instructions and design have be viewed <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form">here</a>.
 
 <h2>Features</h2>
 <ul>
