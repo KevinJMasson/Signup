@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <form action="#" mathod="post">
+    <div id="container">
+        <div class="logo">
+            <div id="brand">
+                <div id="brandText">Sign Up</div>
+            </div>
+        </div>
+        <div style="display:flex; flex:auto; flex-direction: column;">
+            <div id="topContainer" >
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</br>
+                Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+            </div>
+            <div id="signup">
+                <h3 style="font-size: 1.5rem;">Let's do this!</h1>
+                <div class="formFormat">
+                    <label class="labelText" for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" required>
+                </div>
+                    <label class="labelText" for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" required>
+                <div class="formFormat";>
+                    <label class="labelText" for="email">EMAIL</label>
+                    <input type="email" id="email" required>
+                </div>
+                    <label class="labelText" for="phone_num">PHONE NUMBER</label>
+                    <input type="tel" id="phone_num" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <div class="formFormat">
+                    <label class="labelText" for="password">PASSWORD</label>
+                    <input type="password" id="password" required>
+                </div>
+                    <label class="labelText" for="passwordConfirm">CONFIRM PASSWORD</label>
+                    <input type="password" id="passwordConfirm" onkeyup="passwordCheck()" required>
+                <p id="errorMsg">Passwords do not match</p>
+            </div>
+            <div id="bottomContainer">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+    
+</form>
+</body>
+</html>
